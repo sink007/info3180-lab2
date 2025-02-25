@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block main %}
+    <div class="profile">
+        <img src="{{ url_for('static', filename='blackbeard.jpg') }}" alt="profile pic">
+        <h3>{{ name }}</h3>
+        <p>@{{ user}}</p>
+        <p2>{{ loc }}</p2>
+        <p2>{{ date }}</p2>
+        <p2>{{ bio }}</p2>
+        <div class="stats">
+            <div><strong>{{ posts }}</strong><br>Posts</div>
+            <div><strong>{{ following }}</strong><br>Following</div>
+            <div><strong>{{ followers }}</strong><br>Followers</div>
+        </div>
+        <button class="fbtn">Follow</button>
+    </div>
+{% endblock %}

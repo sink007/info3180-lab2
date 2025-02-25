@@ -1,3 +1,108 @@
 body {
     padding-top: 5rem;
+    background-color: #f4f4f4; 
+    font-family: Arial, sans-serif;
+}
+
+.profile {
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px; /* Increased padding for better spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 50px;
+    border: 5px solid #007bff; /* Thicker border for visibility */
+}
+
+.profile h3 {
+    font-size: 40px; /* Significantly larger */
+    font-weight: bold;
+    color: #333;
+}
+
+.profile p {
+    color: #777;
+    font-style: italic;
+    font-size: 28px; /* Much larger */
+}
+
+.profile p2 {
+    color: #555;
+    font-size: 24px; /* Increased for better visibility */
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-size: 24px; /* Much larger for clarity */
+}
+
+.fbtn {
+    background-color: #007bff; 
+    color: white;
+    padding: 20px 40px; /* Larger button */
+    font-size: 24px; /* Much bigger for easy clicking */
+    border: none;
+    border-radius: 10px; /* More rounded for a modern look */
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.fbtn:hover {
+    background-color: #0056b3;
+}
+
+.profile h3 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    word-spacing: 8px;
+    margin-bottom: 20px; /* Added spacing */
+}
+
+.profile p {
+    color: #777;
+    font-style: italic;
+    font-size: 28px;
+    word-spacing: 10px;
+    margin-bottom: 20px; /* Increased spacing */
+}
+
+.profile p2 {
+    color: #555;
+    font-size: 24px;
+    word-spacing: 8px;
+    display: block; /* Ensures spacing applies */
+    margin-bottom: 20px; /* Added spacing */
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px; /* Increased spacing above stats */
+    font-size: 24px;
+    word-spacing: 10px;
+    gap: 40px; /* Added spacing between stats */
+}
+
+.fbtn {
+    background-color: #007bff; 
+    color: white;
+    padding: 20px 40px;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 40px; /* Increased spacing above the button */
+    word-spacing: 5px;
 }
